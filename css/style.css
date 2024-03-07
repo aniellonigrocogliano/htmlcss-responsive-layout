@@ -89,7 +89,7 @@ img {
     
 }
 /* Section testimonial */
-#testimonial {
+#testimonial, #about {
     display: flex;
     flex-wrap: wrap;
 }
@@ -109,4 +109,13 @@ img {
     border-radius: 15px;
         /* debug */
         height:100px;
+}
+/* section abaout */
+.col-about {
+    width: 100%;
+    margin:15px;
+        /* debug */
+        height:100px;
+        background-color: #2484FD;
+        border: 3px solid red;
 }

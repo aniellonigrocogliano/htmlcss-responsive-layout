@@ -20,6 +20,17 @@
     .col-benefit {
         width: 45%;
     }
+    #about {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+}
+
+.col-about:first-child{
+    width: 60%;
+}
+.col-about:last-child {
+    width: 30%;
 }
 
 /* - desktop: 992px */
