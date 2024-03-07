@@ -88,3 +88,15 @@ img {
     background-color: var(--white);
     
 }
+#testimonial {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-testimonial {
+    background-color: var(--fuchsia);
+    width: 100%;
+    margin:15px;
+    border-radius: 15px;
+        /* debug */
+        height:100px;
+}
