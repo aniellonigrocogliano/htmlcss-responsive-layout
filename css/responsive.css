@@ -6,13 +6,13 @@
 #demo-app{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between
+    justify-content: space-between;
 }
     .col-demo {
         width: 28%;
     }
     .col-demo:first-child{
-        width: 56%;
+        width: 63%;
     }
 
 }
@@ -31,5 +31,7 @@
     .list-menu {
         display: flex;
     }
-
+    #strategic-plannig {
+        flex-wrap: nowrap;
+    }
 }
