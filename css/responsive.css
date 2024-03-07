@@ -1,4 +1,35 @@
 /* - tablet: 768px */
+@media screen and (min-width: 780px) {
+    .container {
+        width: 90%;
+    }
+#demo-app{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+    .col-demo {
+        width: 28%;
+    }
+    .col-demo:first-child{
+        width: 56%;
+    }
 
+}
 
 /* - desktop: 992px */
+@media screen and (min-width: 992px) {
+
+    .container {
+        width: 70%;
+    }
+
+    .button-menu {
+        display: none;
+    }
+    
+    .list-menu {
+        display: flex;
+    }
+
+}

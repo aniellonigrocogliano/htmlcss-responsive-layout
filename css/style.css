@@ -10,10 +10,21 @@
 img {
     max-width: 100%;
 }
+
 /* variables */
 :root {
     --azure: #2484FD;
     --white: #ffffff;
+    --light-azure: #B5DDFF;
+}
+
+/* Utility */
+.flex {
+    display: flex;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
 }
 /* Toolbar Nav */
 #nav {
@@ -22,5 +33,41 @@ img {
     height: 55px;
     position: fixed;
     z-index: 999;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
+
+.button-menu {
+    font-size: 1.8rem;
+    color: var(--white);
+}
+
+.menu {
+    display: flex;
+
+}
+
+.list-menu {
+    display: none;
+}
+
+.list-menu ul {
+    color: var(--white);
+    gap: 10px;
+}
+/* Section demo app */
+#demo-app {
+    padding-top: 70px; 
+
+}
+.col-demo {
+    background-color: var(--light-azure) ;
+    width: 100%;
+    margin:15px;
+    border-radius: 15px;
+    /* debug */
+    height:100px;
+}
+/* Section strategic plannig */
