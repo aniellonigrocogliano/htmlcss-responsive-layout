@@ -71,7 +71,7 @@ img {
     height:100px;
 }
 /* Section strategic plannig */
-#strategic-plannig {
+#strategic-plannig, #benefit {
     display:flex;
     flex-wrap: wrap;
     background-color: var(--fuchsia);
@@ -88,12 +88,22 @@ img {
     background-color: var(--white);
     
 }
+/* Section testimonial */
 #testimonial {
     display: flex;
     flex-wrap: wrap;
 }
 .col-testimonial {
     background-color: var(--fuchsia);
+    width: 100%;
+    margin:15px;
+    border-radius: 15px;
+        /* debug */
+        height:100px;
+}
+/* Section benefit */
+.col-benefit {
+    background-color: var(--white);
     width: 100%;
     margin:15px;
     border-radius: 15px;

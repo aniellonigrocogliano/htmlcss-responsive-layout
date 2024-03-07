@@ -14,7 +14,12 @@
     .col-demo:first-child{
         width: 63%;
     }
-
+    #benefit {
+        justify-content: space-between;
+    }
+    .col-benefit {
+        width: 45%;
+    }
 }
 
 /* - desktop: 992px */
@@ -33,5 +38,8 @@
     }
     #strategic-plannig {
         flex-wrap: nowrap;
+    }
+    .col-benefit {
+        width: 28%;
     }
 }
