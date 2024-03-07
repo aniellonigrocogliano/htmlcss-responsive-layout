@@ -16,7 +16,9 @@ img {
     --azure: #2484FD;
     --white: #ffffff;
     --light-azure: #B5DDFF;
-    --fuchsia: #9792E4
+    --fuchsia: #9792E4;
+    --black: #000000;
+    --strong-gray: #333333;
 }
 
 /* Utility */
@@ -118,4 +120,21 @@ img {
         height:100px;
         background-color: #2484FD;
         border: 3px solid red;
+}
+/* sectionget star */
+#get-star {
+    background-color: var(--fuchsia);
+        /* debug */
+        height:100px;
+}
+#footer {
+    background-color: var(--strong-gray);
+        /* debug */
+        height:100px;
+}
+.container-footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: red;
 }

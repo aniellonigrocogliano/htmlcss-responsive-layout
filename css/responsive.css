@@ -24,6 +24,9 @@
         flex-wrap: nowrap;
         justify-content: space-between;
     }
+    .container-footer {
+        width: 60%;
+    }
 }
 
 .col-about:first-child{
@@ -53,4 +56,9 @@
     .col-benefit {
         width: 28%;
     }
+    .container-footer {
+        width: 40%;
+    }
+
+
 }
