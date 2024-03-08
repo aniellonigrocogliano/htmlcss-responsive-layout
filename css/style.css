@@ -19,15 +19,26 @@ img {
     --fuchsia: #9792E4;
     --black: #000000;
     --strong-gray: #333333;
+    --gray-text: #5A6E7F;
 }
 
 /* Utility */
 .flex {
     display: flex;
 }
+.wrap {
+    flex-wrap: wrap;
+}
+.flex-col {
+    flex-direction: column;
+}
 .container {
     width: 100%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
 }
 /* Toolbar Nav */
 #nav {
@@ -65,12 +76,35 @@ img {
     padding-top: 70px; 
 
 }
+#demo-app h3{
+    color: var(--azure);
+    font-size: clamp(1rem, 0.3rem + 2.5vw, 3rem);
+    font-weight:bold;
+    padding:10px;
+}
+#demo-app p {
+    text-align: center;
+    font-weight:bold;
+    padding-top: 15px;
+    color: var(--gray-text);
+    font-size: clamp(1rem, 0.3rem + 1vw, 3rem);
+}
+#demo-app img {
+    padding-top: 15px;
+    margin-bottom: -15px;
+}
+.card{
+   
+    padding:15px;
+    text-align: center;
+
+}
 .col-demo {
     background-color: var(--light-azure) ;
     margin:15px;
-    border-radius: 15px;
-    /* debug */
-    height:100px;
+    border-radius: 15px; width: 100%;
+    height: 100%;
+    
 }
 /* Section strategic plannig */
 #strategic-plannig, #benefit {
