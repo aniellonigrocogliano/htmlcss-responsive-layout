@@ -256,15 +256,49 @@ display: inline-block;
 }
 
 /* Section benefit */
+#benefit {
+    align-items: stretch;
+}
+.fucsia-color{
+    background-color: var(--fuchsia);
+}
 .col-benefit {
     background-color: var(--white);
     width: 100%;
     margin: 15px;
+    padding:15px;
     border-radius: 15px;
-    /* debug */
-    height: 100px;
 }
 
+#benefit span{
+    font-size: 4rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: var(--fuchsia);
+    font-weight: bold;
+}
+#benefit h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: var(--fuchsia);
+    font-weight: bold;
+    font-size: clamp(1rem, 0.3rem + 5vw, 2rem);
+}
+#benefit p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: var(--gray-text);
+    font-size: clamp(1rem, 0.3rem + 1vw, 1.6rem);
+}
+#benefit button{
+    background-color: var(--fuchsia);
+    color: var(--white);
+    border-radius: 15px;
+    padding: 10px 30px 10px 30px;
+    font-size: clamp(1rem, 0.3rem + 1vw, 1.6rem);
+    cursor: pointer;
+    border: none;
+}
 /* section abaout */
 .col-about {
     width: 100%;
