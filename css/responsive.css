@@ -59,6 +59,18 @@
 
         width: 70%;
     }
+ .container-plannig{
+    justify-content: center;
+align-items:flex-start;
+    width: 70%;
+    flex-wrap: nowrap;
+}
+#strategic-plannig{
+    justify-content: center;
+}
+#strategic-plannig .col-plannig:last-child{
+    margin-top: 200px;
+}
     .button-menu {
         display: none;
     }
@@ -83,6 +95,8 @@
     .container-footer {
         width: 40%;
     }
-
+.col-plannig{
+    width: 50%;justify-content: space-between;
+}
 
 }

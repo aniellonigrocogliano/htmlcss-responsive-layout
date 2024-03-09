@@ -26,12 +26,18 @@ img {
 .flex {
     display: flex;
 }
+
 .wrap {
     flex-wrap: wrap;
 }
+.nowrap{
+    flex-wrap: nowrap;
+}
+
 .flex-col {
     flex-direction: column;
 }
+
 .container {
     width: 100%;
     margin: 0 auto;
@@ -40,6 +46,7 @@ img {
     align-items: center;
     padding: 25px;
 }
+
 /* Toolbar Nav */
 #nav {
     background-color: var(--azure);
@@ -71,119 +78,179 @@ img {
     color: var(--white);
     gap: 10px;
 }
+
 /* Section demo app */
 #demo-app {
-    padding-top: 70px; 
+    padding-top: 70px;
     align-items: stretch;
 
 
 }
-#demo-app h3{
+
+#demo-app h3 {
     color: var(--azure);
     font-size: clamp(1rem, 0.3rem + 2.5vw, 1.6rem);
-    font-weight:bold;
-    padding:10px;
+    font-weight: bold;
+    padding: 10px;
 }
+
 #demo-app p {
     text-align: center;
-    font-weight:bold;
+    font-weight: bold;
     padding-top: 15px;
     padding-bottom: 15px;
     color: var(--gray-text);
     font-size: clamp(1rem, 0.3rem + 1vw, 1.6rem);
 }
+
 #demo-app img {
     padding-top: 15px;
     margin-bottom: -19px;
 }
-.apple{
+
+.apple {
     background-color: var(--azure);
     color: var(--white);
     border-radius: 15px;
-    padding:10px;
+    padding: 10px;
     font-size: clamp(1rem, 0.3rem + 1vw, 1.6rem);
     cursor: pointer;
-    border: none;  
+    border: none;
 }
-.fa-2xl{
+
+.fa-2xl {
     font-size: 5rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
-.card{
+
+.card {
     height: 100%;
-    padding:15px;
+    padding: 15px;
     text-align: center;
 
 }
-.col-demo {
-    background-color: var(--light-azure) ;
-    margin:15px;
-    border-radius: 15px; width: 100%;
 
-    
+.col-demo {
+    background-color: var(--light-azure);
+    margin: 15px;
+    border-radius: 15px;
+    width: 100%;
+
+
 }
+
 /* Section strategic plannig */
-#strategic-plannig, #benefit {
-    display:flex;
+#strategic-plannig,
+#benefit {
+    display: flex;
     flex-wrap: wrap;
     background-color: var(--fuchsia);
 }
 
 .col-plannig {
     width: 100%;
-    margin:15px;
+    margin: 15px;
     border-radius: 15px;
-    /* debug */
-    height:100px;
 }
+
+.plannig-h3 {
+    color: var(--white);
+    font-size: clamp(1rem, 0.3rem + 5vw, 2rem);
+    font-weight: bold;
+    padding: 10px;
+}
+
+.plannig-p {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-style: normal;
+    color: var(--white);
+    font-size: clamp(1rem, 0.3rem + 1vw, 1.6rem);
+}
+
+.plannig-p-l {
+    color: var(--black);
+    font-style: oblique;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: clamp(1rem, 0.3rem + 1vw, 1.6rem);
+}
+
+.plannig-h3-l {
+    color: var(--black);
+    font-size: clamp(1rem, 0.3rem + 5vw, 2rem);
+    font-weight: bold;
+    padding: 10px;
+}
+.plannig-circle{
+    display: inline-block;
+    background-color: var(--fuchsia);
+    font-size: 3rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
 .col-plannig:last-child {
     background-color: var(--white);
-    
+
 }
+
 /* Section testimonial */
-#testimonial, #about {
+#testimonial,
+#about {
     display: flex;
     flex-wrap: wrap;
 }
+
 .col-testimonial {
     background-color: var(--fuchsia);
     width: 100%;
-    margin:15px;
+    margin: 15px;
     border-radius: 15px;
-        /* debug */
-        height:100px;
+    /* debug */
+    height: 100px;
 }
+
 /* Section benefit */
 .col-benefit {
     background-color: var(--white);
     width: 100%;
-    margin:15px;
+    margin: 15px;
     border-radius: 15px;
-        /* debug */
-        height:100px;
+    /* debug */
+    height: 100px;
 }
+
 /* section abaout */
 .col-about {
     width: 100%;
-    margin:15px;
-        /* debug */
-        height:100px;
-        background-color: #2484FD;
-        border: 3px solid red;
+    margin: 15px;
+    /* debug */
+    height: 100px;
+    background-color: #2484FD;
+    border: 3px solid red;
 }
+
 /* sectionget star */
 #get-star {
     background-color: var(--fuchsia);
-        /* debug */
-        height:100px;
+    /* debug */
+    height: 100px;
 }
+
 #footer {
     background-color: var(--strong-gray);
-        /* debug */
-        height:100px;
+    /* debug */
+    height: 100px;
 }
-.container-footer{
+
+.container-footer {
     width: 100%;
     display: flex;
     justify-content: center;
