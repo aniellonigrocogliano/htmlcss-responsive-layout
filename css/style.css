@@ -206,15 +206,41 @@ img {
 #about {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
-
+#testimonial .col-testimonial:first-child{
+background-color: var(--white);
+display: inline-block;
+}
 .col-testimonial {
+    text-align: center;
     background-color: var(--fuchsia);
     width: 100%;
     margin: 15px;
+    padding: 15px;
     border-radius: 15px;
-    /* debug */
-    height: 100px;
+    display:flex;
+    flex-direction: column;
+    quotes: '\201D' '\201E';
+}
+ #testimonial h3{
+    font-size: clamp(1rem, 0.3rem + 2.5vw, 1.6rem);
+    font-weight: bold;
+    padding: 10px;
+    color: var(--fuchsia);
+ }
+ #testimonial p {
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: var(--black);
+    font-size: clamp(1rem, 0.3rem + 1vw, 1.6rem);
+}
+#testimonial img{
+    width: 15vh;
+    height: 15vh;
+    border-radius: 100%;
+    object-fit: cover;
 }
 
 /* Section benefit */
