@@ -8,7 +8,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        
+
     }
 
     .col-demo {
@@ -18,9 +18,11 @@
     .col-demo:first-child {
         width: 62%;
     }
-  .position-demo-app{
-    width: 50%;
-  }
+
+    .position-demo-app {
+        width: 50%;
+    }
+
     #benefit {
         justify-content: space-between;
     }
@@ -41,14 +43,17 @@
     .col-about:first-child {
         width: 60%;
     }
+
     .col-about:last-child {
         width: 30%;
     }
-    .col-testimonial{
+
+    .col-testimonial {
         flex-direction: row;
         justify-content: space-between;
     }
-    .card-text{
+
+    .card-text {
         width: 80%;
     }
 }
@@ -60,29 +65,35 @@
     .container {
         width: 70%;
     }
-    .conteiner-desktop{
+
+    .conteiner-desktop {
 
         width: 70%;
     }
- .container-plannig{
-    justify-content: center;
-align-items:flex-start;
-    width: 70%;
-    flex-wrap: nowrap;
-}
-#strategic-plannig{
-    justify-content: center;
-}
-#strategic-plannig .col-plannig:last-child{
-    margin-top: 200px;
-}
+
+    .container-plannig {
+        justify-content: center;
+        align-items: flex-start;
+        width: 70%;
+        flex-wrap: nowrap;
+    }
+
+    #strategic-plannig {
+        justify-content: center;
+    }
+
+    #strategic-plannig .col-plannig:last-child {
+        margin-top: 200px;
+    }
+
     .button-menu {
         display: none;
     }
-    .flex-demo-app{
+
+    .flex-demo-app {
         display: flex;
         flex-wrap: nowrap;
-      }
+    }
 
     .list-menu {
         display: flex;
@@ -100,8 +111,10 @@ align-items:flex-start;
     .container-footer {
         width: 40%;
     }
-.col-plannig{
-    width: 50%;justify-content: space-between;
-}
+
+    .col-plannig {
+        width: 50%;
+        justify-content: space-between;
+    }
 
 }
