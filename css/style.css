@@ -303,19 +303,58 @@ display: inline-block;
 .col-about {
     width: 100%;
     margin: 15px;
-    /* debug */
-    height: 100px;
-    background-color: #2484FD;
-    border: 3px solid red;
 }
-
+#about h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: var(--fuchsia);
+    font-weight: bold;
+    font-size: clamp(1rem, 0.3rem + 5vw, 2rem);
+}
+#about p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: var(--gray-text);
+    font-size: clamp(1rem, 0.3rem + 1vw, 1.6rem);
+}
+#about img{
+    width: 25vh;
+    height: 25vh;
+    border-radius: 100%;
+    object-fit: cover;
+}
+#about h4{ margin-top: 25px;
+    margin-bottom: 25px;
+    color: var(--fuchsia);
+    font-weight: bold;
+    font-size: clamp(1rem, 0.3rem + 3vw, 2rem);}
+    .img-q{
+        position: relative;
+    }
+    .img-q-q{
+            position: absolute;
+            top: -50px;
+            left: 18vh;
+            z-index: 1;
+            color: var(--fuchsia);
+            font-size: 100px;
+            font-weight: bold
+    }
+#about button{
+    background-color: var(--fuchsia);
+    color: var(--white);
+    border-radius: 15px;
+    padding: 10px 30px 10px 30px;
+    font-size: clamp(1rem, 0.3rem + 1vw, 1.6rem);
+    cursor: pointer;
+    border: none;
+}
 /* sectionget star */
 #get-star {
     background-color: var(--fuchsia);
     /* debug */
     height: 100px;
 }
-
 #footer {
     background-color: var(--strong-gray);
     /* debug */
