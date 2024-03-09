@@ -221,7 +221,19 @@ display: inline-block;
     border-radius: 15px;
     display:flex;
     flex-direction: column;
-    quotes: '\201D' '\201E';
+    quotes: '\201D' '\201D';
+}
+#testimonial q {
+    color: var(--white);
+    font-size: clamp(1rem, 0.3rem + 2vw, 2rem);
+    padding: 10px;
+
+}
+#testimonial h4{
+    color: var(--white);
+    font-size: clamp(1rem, 0.3rem + 5vw, 2rem);
+    font-weight: bold;
+    padding: 10px;
 }
  #testimonial h3{
     font-size: clamp(1rem, 0.3rem + 2.5vw, 1.6rem);

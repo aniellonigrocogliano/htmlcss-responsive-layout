@@ -45,7 +45,13 @@
     .col-about:last-child {
         width: 30%;
     }
-
+    .col-testimonial{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .card-text{
+        width: 80%;
+    }
 }
 
 
